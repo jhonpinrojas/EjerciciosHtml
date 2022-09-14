@@ -1,0 +1,37 @@
+.imagenprincipal{
+    width: 100vw;
+    opacity: 0.5;
+}
+.imagengaleria{
+    width: 200px;
+
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imagengaleria:hover{
+    opacity: 0.3;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover ;
+    position: fixed;
+
+}
+html{
+    font-family: Helvetica;
+    color: rgb(241, 236, 236);
+}
+.header{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    gap 10px;
+    align-items: center;
+
+}

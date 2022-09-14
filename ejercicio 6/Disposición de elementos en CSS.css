@@ -1,0 +1,12 @@
+.imagengaleria{
+    width: 300px;
+
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imagengaleria:hover{
+    opacity: 0.3;
+}
