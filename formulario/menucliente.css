@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+.platos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family:'Playfair',sans-serif  ;
+
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px;
+    background-color:#cac9c9; ;
+    background-image:  url('restaurante.png') ;
+    background-repeat: no-repeat;
+    background-size: 60rem;
+
+}
+.boton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botonpago{
+    
+    background-color: #45de70;
+    color: #e8f0f0;
+    font-weight: 600;
+    border: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carrito-btn{
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}

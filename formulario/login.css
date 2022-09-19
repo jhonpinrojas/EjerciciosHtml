@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-*{
+html{
     font-family:'Playfair',sans-serif  ;
     color:white;
-    background-color:#161717 ;
+    background-color:#cac9c9; ;
+    background-image:  url('restaurante.png') ;
+    background-repeat: no-repeat;
+    background-size: 60rem;
 }
 
 .container {
@@ -14,6 +17,7 @@
     justify-content: center;
     gap: 30px;
     width: 450px;
+    
 }
 
 .buttons {
@@ -132,7 +136,7 @@ label span {
 
 .section-inputs label input {
     width: 80%;
-    background-color: #212121;
+    background-color: #b2afaf; 
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -141,7 +145,7 @@ label span {
 }
 label input {
     width: 90%;
-    background-color: #212121;
+    background-color: #b2afaf; 
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -156,7 +160,7 @@ label input:hover {
     box-shadow: 0 0 4px #eb50ff4f;
 }
 label input:focus {
-    background-color: #161717
+    background-color: #cac9c9; 
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb50ff4f;
 }
@@ -176,7 +180,7 @@ label input:focus {
 }
 
 .submit-btn {
-    background-color: #EA4C89;
+    background-color: #45de70;
     color: #161717;
     font-weight: 500;
     font-size: 14pt;
